@@ -7,16 +7,19 @@ Veterinaria ESIS es una aplicación de gestión para clínicas veterinarias, que
 Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio en tu máquina local:
+
    ```bash
    git clone https://github.com/tuusuario/veterinaria-esis-main.git
    ```
 
 2. Navega al directorio del proyecto:
+
    ```bash
    cd veterinaria-esis-main
    ```
 
 3. Instala las dependencias para el backend y frontend:
+
    ```bash
    # Para instalar dependencias de backend
    cd backend
@@ -31,12 +34,14 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
    Crea un archivo `.env` en la raíz del proyecto y agrega las variables requeridas.
 
    **Ejemplo de `.env`:**
+
    ```bash
    DATABASE_URL=tu_url_de_base_de_datos
    API_KEY=tu_clave_api
    ```
 
 5. Ejecuta el proyecto en modo desarrollo:
+
    ```bash
    # Para ejecutar el backend
    cd backend
@@ -55,6 +60,7 @@ Una vez que el proyecto esté en ejecución, abre tu navegador y accede a la sig
 [http://localhost:3000](http://localhost:3000)
 
 **Características principales:**
+
 - Gestión de pacientes veterinarios
 - Control de inventario de medicamentos y productos
 - Gestión de citas médicas y seguimiento de tratamientos
@@ -66,6 +72,7 @@ Para crear una cita, ve al menú "Citas", selecciona un paciente, elige el veter
 El proyecto está dividido en dos partes principales: el **backend** y el **frontend**. A continuación, se describe la estructura de cada parte:
 
 - `backend/` - Código del servidor y la API
+
   - `src/` - Archivos fuente del backend
   - `controllers/` - Controladores para manejar las solicitudes HTTP
   - `models/` - Modelos de datos y lógica de la base de datos
@@ -76,7 +83,6 @@ El proyecto está dividido en dos partes principales: el **backend** y el **fron
   - `components/` - Componentes reutilizables de la UI
   - `pages/` - Páginas principales de la aplicación
   - `assets/` - Imágenes y archivos estáticos
-
 
 ## Contribuir
 
@@ -96,3 +102,17 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
    git push origin nueva-rama
    ```
 5. Crea un **pull request** en GitHub para que podamos revisar tus cambios y fusionarlos con la rama principal.
+
+6. 🐾 Clínica Veterinaria - Versión 1.0.0C
+
+### 🔐 Login
+
+- Se agregó inicio de sesión con preferencia de tema visual.
+
+### 🎨 Cambio de tema
+
+- Simulación de aplicación de tema claro u oscuro.
+
+### ✅ Validaciones
+
+- Validación del campo de tema en el backend.
